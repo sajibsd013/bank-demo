@@ -1,0 +1,30 @@
+.Card{
+    width: 20%;
+    padding: 1% 2%;
+    margin: 4%;
+    border-radius: 7px;
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+    font-weight: 400,
+  }
+
+h2,h1{
+  font-weight: 600;
+}
+
+h1{
+  font-size: 35px;
+}
+  
+  @media (max-width: 768px){
+    .Card{
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 20px;
+      }
+  }
+  

@@ -1,0 +1,46 @@
+
+  
+.inputArea{
+    color: black;
+    width: 41%;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    margin: 2%;
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: grey 5px 5px 10px;
+  }
+  
+  .input {
+    width: 95%;
+    line-height: 1.5;
+    font-size: 1rem;
+    font-weight: 400;
+    border: lightgray 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+.btn {
+    padding: 10px 25px;
+    font-weight: 400;
+    font-size: 1rem;
+    border-radius:4px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+  }
+
+  @media (max-width: 768px){
+    .inputArea{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: block;
+      }
+        
+
+  }
