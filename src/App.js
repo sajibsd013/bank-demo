@@ -22,7 +22,7 @@ function App() {
   };
 
 const handleWithdraw = (amount) => {
-    if(balance>=100 && amount>0){
+    if(balance>=amount && amount>0){
       setWithdraw(Withdraw+amount);
       setBalance(balance-amount);
     }else if(amount<0){
